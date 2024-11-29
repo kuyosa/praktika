@@ -140,7 +140,7 @@
 
                 <div class="order-item dl">
                     <h3>2. Способ доставки</h3>
-                    <div class="delivery">
+                    <div class="delivery sub">
                         <div class="item active">
                             <p>Наличными при получении</p>
                         </div>
@@ -204,6 +204,32 @@
         </div>
       
     </footer>
+
+    <script>
+          let item3 = document.querySelector('.delivery.sub .item.active')
+        let item4 = document.querySelector('.delivery.sub .item:last-child')
+
+        item3.addEventListener('click', (e)=>{
+            item3.classList.add('active')
+            item4.classList.remove('active')
+        })
+        item4.addEventListener('click', (e)=>{
+            item4.classList.add('active')
+            item3.classList.remove('active')
+        })
+
+        let item1 = document.querySelector('.delivery .item.active')
+        let item2 = document.querySelector('.delivery .item:last-child')
+
+        item2.addEventListener('click', (e)=>{
+            item2.classList.add('active')
+            item1.classList.remove('active')
+        })
+        item1.addEventListener('click', (e)=>{
+            item1.classList.add('active')
+            item2.classList.remove('active')
+        })
+    </script>
 
     <script src="js/main.js"></script>
 </body>
