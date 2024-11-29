@@ -1,0 +1,258 @@
+.swiper{
+    width:100%;
+    height:fit-content
+}
+.swiper-pagination{
+    position: static;
+    margin-top: 26px;
+}
+
+.swiper-pagination-bullet{
+    width:14px;
+    height:14px;
+    background: #767676;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background: #F03B20;
+}
+
+/* каталог */
+
+.catalog h2{
+    font-size: 60px;
+    font-family: 'RobotoSerif bold';
+    margin-bottom: 29px;
+}
+
+.catalog .cards{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 75px;
+    row-gap: 44px;
+}
+
+.catalog .cards .card{
+    height:531px;
+    display: flex;
+    flex-direction: column;
+}
+.catalog .cards .card .img{
+    padding: 14px 0;
+    background-color: #ECECEC;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:343px;
+}
+.catalog .cards .card img{
+    object-fit: cover;
+    width: 313px;
+    height:
+}
+.catalog .cards .card .title{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto';
+    margin: 11px 0 18px 0;
+}
+
+.catalog .cards .card .description{
+    flex: 1 1 0;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: #646363;
+    margin-bottom: 20px;
+}
+
+.catalog .cards .card .btn{
+    display: flex;
+    justify-content: space-between;
+}
+.catalog .cards .card .btn .cost{
+    font-family:'Roboto';
+    font-size: 30px;
+
+}
+.catalog .cards .card .btn .add{
+    display: flex;
+    align-items: center;
+    gap:11px;
+    font-family:'Roboto';
+    font-size: 30px;
+    color: #F03B20;
+    
+}
+.catalog .cards .card .btn .add img{
+    height:22px;
+    width: 15px;
+}
+
+.btn-more{
+    margin: 0 auto;
+    height:71px;
+    width: 294px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F03B20;
+    color: white;
+    font-family: 'RobotoSerif bold';
+    font-weight: 800;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+body{
+    position: relative;
+}
+.modal-background{
+    display: none;
+    position: absolute;
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.51);
+    top:0;
+    z-index: 100;
+}
+.modal{
+    display: none;
+    position:fixed;
+    top: 230px;
+    left: 0;
+    right:0;
+    margin: 0 auto;
+    z-index: 1000;
+    background-color: white;
+    border-radius: 20px;
+    width: 1003px;
+    padding-top: 21px;
+    padding-right: 34px;
+    padding-left:54px;
+    padding-bottom:32px;
+    flex-direction: column;
+    align-items: end;
+}
+
+.modal .close{
+    text-align: right   ;
+    cursor: pointer;
+}
+
+.modal .main{
+    display: flex;
+    gap: 11px;
+}
+
+.modal .main .img{
+    background: #ECECEC;
+    border-radius: 20px;
+    padding: 22px;
+    height: fit-content;
+}
+.modal .main .text h3{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 21px;
+}
+.modal .main .text .info{
+    display: flex;
+    gap: 26px;
+    margin-bottom:20px;
+    position: relative;
+}
+.modal .main .text .info .structure{
+    cursor: pointer;
+    
+}
+.modal .main .text .info .structure-info{
+    display: none;
+    background-color: rgba(0,0,0,0.9);
+    padding: 13px 22px;
+    border-radius: 20px;
+    position: absolute;
+    width: 293px;
+    height:234px;
+    top: 35px;  
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+.modal .main .text .info .structure-info p{
+    color: white;
+    font-size: 14px;
+}
+.modal .main .text .info .structure-info p:first-child{
+    margin-bottom: 16px;
+}
+.modal .main .text .info .structure-info ul li{
+    color: white;
+    font-size: 14px;
+    list-style: outside;
+    margin-left:20px;
+}
+.modal .main .text .info p{
+    font-size: 22px;
+}
+.modal .main .text .info .structure{
+    border-bottom: 1px solid black;
+}
+.modal .main .text .description{
+    font-size: 24px;
+    margin-bottom: 61px;
+}
+
+
+.modal .main .counter{
+    display: flex;
+    gap:21px;
+}
+
+.modal .main .counter p{
+    font-size: 26px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9;
+    border-radius: 10px;
+    padding: 21px 14px;
+    cursor: pointer;
+}
+.modal .main .counter span{
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+.modal .main .counter .sum{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Inter';
+    margin-left: 33px;
+    display: flex;
+    align-items: center;
+}
+.modal .main .btn{
+    width:100%;
+    height:71px;
+    border-radius: 20px;
+    background-color: #F03B20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+body.open{
+    background: rgba(0,0,0,0.51);
+}

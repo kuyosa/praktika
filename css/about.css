@@ -1,0 +1,36 @@
+.about p{
+    font-family: 'RobotoSerif';
+    font-size: 26px;
+    margin-bottom:33px;
+}
+
+.about div h4{
+    font-family: 'RobotoSerif';
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom:33px;
+}
+.about div ul{
+    padding-left:15px;
+    width:528px;
+}
+.about div ul li{
+    
+    list-style: inside;
+    list-style-position: outside;
+    font-family: 'RobotoSerif';
+    font-size: 26px;
+    margin-bottom:33px;
+}
+.about div ul li strong{
+    font-weight: 500;
+}
+
+.about div img{
+    float: right;
+    height:600px;
+}
+
+.about{
+    text-align: justify !important;
+}

@@ -1,0 +1,69 @@
+.help .questions{
+    margin-top: 50px;
+    border-right: 3px solid black;
+    width: 500px;
+    position: fixed;
+    z-index: 100;
+}
+.help .questions ul{
+    display: flex;
+    flex-direction: column;
+    gap:38px;
+}
+
+.help .questions ul li a:hover{
+    color: #F03B20;
+}
+footer{
+    position: relative;
+    z-index: 10000;
+}
+
+.help .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.help .questions ul li a{
+    font-size: 30px;
+    font-family: 'RobotSerif';
+    font-weight: 600;
+}
+
+.help .text{
+    margin-top: 186px;
+    grid-column: 2;
+    width:600px;
+    margin-bottom:66px;
+    text-align: justify !important;
+}
+
+.help .text h4{
+    font-size: 26px;
+    font-family: 'RobotSerif';
+    font-weight: 800;
+    margin-top: 15px;
+}
+.help .text ul{
+
+    margin-left: 35px;
+}
+.help .text ul li{
+    font-size: 26px;
+    font-family: 'RobotSerif';
+    margin-bottom: 5px;
+    list-style: outside;
+    
+}
+.help .text ul strong{
+    font-family: 'RobotSerif';
+    font-weight: medium;
+    font-size: 26px;
+}
+.help .text p{
+    font-size: 26px;
+    font-family: 'RobotSerif';
+}
+
+#s1, #s2, #s3, #s4, #s5{
+    scroll-margin-top: 170px;
+}

@@ -1,0 +1,27 @@
+.delivery p{
+    font-size: 26px;
+    margin-bottom: 33px;
+    font-family: 'RobotoSerif';
+}
+.delivery h4{
+    font-family: 'RobotoSerif';
+    font-weight: 500;
+    font-size: 26px;
+}
+.delivery ul{
+    margin-bottom: 35px;
+    margin-left: 41px;
+}
+.delivery ul li{
+    font-size: 26px;
+    list-style: outside;
+}
+.delivery p strong{
+    font-weight: 500;
+}
+.delivery p a{
+    color: #F03B20;
+}
+.delivery{
+    text-align: justify !important;
+}

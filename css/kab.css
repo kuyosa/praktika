@@ -1,0 +1,121 @@
+.kab .menu{
+    display: grid;
+    grid-template-columns: 420px 1fr;
+    column-gap: 58px;
+}
+
+.kab .menu .left ul li{
+    width:100%;
+    height:78px;
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+
+}
+.kab .menu .left ul li a{
+    padding:24px 56px;
+    display: flex;
+    width:100%;
+    height:100%;
+    font-size: 26px;
+    font-family: 'Roboto';
+}
+
+.kab .menu .left ul li.active{
+    border: 1px solid #F03B20;
+}
+
+.kab .menu .left ul li.active a{
+    color:#F03B20
+}
+.kab .menu .right h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 21px;
+}
+
+.kab .menu .right form{
+    display: flex;
+    flex-direction: column;
+}
+.kab .menu .right form label{
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin-bottom: 6px;
+    margin-top: 16px;
+}
+
+.kab .menu .right form input{
+    height:42px;
+    width: 100%;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px;
+    padding: 2px 10px;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.kab .menu .right form button{
+    margin-top:35px;
+    height: 63px;
+    width:100%;
+    background: #F03B20;
+    border-radius: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.kab .menu{
+    margin-bottom: 149px;
+}
+
+.kab .card{
+    height: 75px;
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    padding: 0 14px 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kab .card p{
+    font-size: 30px;
+    font-family: 'Roboto';
+}
+
+.kab .card.active{
+    display: block;
+    height: 195px;
+    padding-top:20px ;
+}
+.kab .card.active .top{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: start;  
+}
+
+.kab .card.active p{
+    font-size: 22px;
+}
+.kab .card.active .cost{
+    justify-self: end;
+}
+.kab .card.active .info{
+    margin-top: 25px;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto 1fr auto;
+}
+
+.kab .card.active .info .dots{
+    border-bottom: 3px dotted black;
+    align-self: flex-end;
+    position: relative;
+    bottom: 5px;    
+}
+
+

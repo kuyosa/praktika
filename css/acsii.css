@@ -1,0 +1,30 @@
+.acsii .cards{
+    display: grid;
+    grid-template-columns: 539px 539px;
+    column-gap: 122px;
+    row-gap: 87px;
+}
+
+.acsii .cards .card img{
+    height:357px;
+    object-fit: cover;
+}
+.acsii .cards .card .date{
+    margin: 18px 0;
+    color: #646363;
+    font-size: 22;
+    font-family: 'RobotoSerif';
+}
+
+.acsii .cards .card .title{
+    font-size: 30px;
+    margin-bottom:18px;
+    font-family: 'RobotoSerif';
+}
+.acsii .cards .card .description{
+    font-size: 26px;
+    font-family: 'RobotoSerif';
+}
+.acsii{
+    margin-bottom: 62px;
+}
